@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Synth Lord</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<div id="gameBoard">
+			<h1 id="title">Synth Lord</h1>
+			<canvas id="gameCanvas" width="400" height="300"></canvas>
+			<div id="keys">
+				<div class="key" key="A">A</div>
+				<div class="key" key="S">S</div>
+				<div class="key" key="D">D</div>
+				<div class="key" key="F">F</div>
+				<div class="key" key="H">H</div>
+				<div class="key" key="J">J</div>
+				<div class="key" key="K">K</div>
+				<div class="key" key="L">L</div>
+			</div>
+
+			<div id="buttons">
+				<button class="button" onclick="play()">Start</button>
+				<button class="button" onclick="pause()">Pause</button>
+			</div>
+		</div>
+	</body>
+
+	<script src="./index.js"></script>
+	<script src="./game.js"></script>
+</html>
